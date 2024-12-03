@@ -71,6 +71,7 @@ public class GameManager : MonoBehaviour
     /// </summary>
     public void ButtonClicked()
     {
+        Debug.Log("button");
         if (State == GameState.Gameover)
         {
             // In the Gameover state, button click should go to the main menu
